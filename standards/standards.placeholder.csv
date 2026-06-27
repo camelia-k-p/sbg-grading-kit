@@ -1,0 +1,13 @@
+ls_key,unit,type,statement
+ch0-COM-vecarith,ch0,COM,"I can add, subtract, and scale vectors in R^n and compute linear combinations."
+ch0-CON-vecline,ch0,CON,"I can represent a line in R^2 and R^3 in vector form."
+ch0-VG-plane,ch0,VG,"Given a plane in R^3, I can sketch it and describe it with a vector equation."
+ch0-WRIT-sets,ch0,WRIT,"I can read and write set-builder notation correctly."
+ch1-COM-rref,ch1,COM,"I can row reduce a matrix to reduced row echelon form."
+ch1-CON-augsoltype,ch1,CON,"Given an augmented matrix in echelon form, I can classify the solution set (none, unique, infinitely many)."
+ch1-VG-rowpic,ch1,VG,"I can interpret the solution set of a 2x2 or 3x3 linear system geometrically."
+ch2-COM-matvec,ch2,COM,"I can compute a matrix-vector product and use it to evaluate a linear transformation."
+ch2-CON-lintrans,ch2,CON,"I can verify whether a given map is a linear transformation."
+ch2-VG-unitlintrans,ch2,VG,"I can describe the effect of a linear transformation on the unit square."
+ch2-COM-standmat,ch2,COM,"I can find the standard matrix of a linear transformation from its action on basis vectors."
+chg-WRIT-matnot,chg,WRIT,"I use matrix and vector notation correctly and consistently in written solutions."

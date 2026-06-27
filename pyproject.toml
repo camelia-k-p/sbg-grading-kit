@@ -1,0 +1,11 @@
+[project]
+name = "sbg-template"
+version = "0.1.0"
+description = "Standards-based grading starter kit: standards, lookup table, mastery pipeline, student reports"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "pyyaml>=6.0",
+    "openpyxl>=3.1",
+]

@@ -1,0 +1,30 @@
+# ------------------------------------------------------------------
+# SBG pipeline configuration
+# Paths are relative to where you run the scripts from (repo root).
+# ------------------------------------------------------------------
+roster: sample_data/roster.csv
+
+# learning standards
+standards_csv: standards/standards.csv
+lookup_table: lookup/standards_lookup_table.csv   # .csv or .xlsx ('grading' sheet)
+
+# assessment exports
+webwork_glob: sample_data/webwork/*.csv
+exam_glob: sample_data/exams/*.csv
+tutorial_files:
+  - sample_data/tutorials/tutorial_scores.csv
+  # add resubmission files here; later files only ADD demonstrations:
+  # - sample_data/tutorials/resubmission_scores.csv
+use_grading_groups: true
+
+# manual overrides (login_name,score_key,correct,is_graded[,comment])
+manual_scores: sample_data/manual_scores.csv
+
+output_dir: output
+
+report_preamble: >
+  This interim report includes the learning standards evaluated on
+  tutorials, online homework, the gateway quiz, and midterm 1 so far.
+  Blank cells mean a standard has not yet been assessed in that modality.
+  Only eventual mastery matters: you will have more opportunities to
+  demonstrate any standard you have not met yet.

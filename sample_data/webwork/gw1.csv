@@ -1,0 +1,37 @@
+NO OF FIELDS,,,,,,,,,,
+SET NAME,,,,,gw1,gw1,gw1,gw1,gw1,gw1
+PROB NUMBER,,,,,1,2,3,4,5,6
+CLOSE DATE,,,,,01/01/2030,01/01/2030,01/01/2030,01/01/2030,01/01/2030,01/01/2030
+CLOSE TIME,,,,,11:00pm EST,11:00pm EST,11:00pm EST,11:00pm EST,11:00pm EST,11:00pm EST
+PROB VALUE,,,,,1,1,1,1,1,1
+STUDENT ID,login ID,LAST NAME,FIRST NAME,SECTION,STATUS,STATUS,STATUS,STATUS,STATUS,STATUS
+7100000001,student01,Lovelace,Ada,,1,1,1,0,1,1
+7100000002,student02,Pascal,Blaise,,1,1,1,1,1,1
+7100000003,student03,Gauss,Carl,,1,1,1,0,1,0
+7100000004,student04,Noether,Daria,,1,1,1,1,1,1
+7100000005,student05,Euler,Emmy,,1,1,1,0,1,1
+7100000006,student06,Hopper,Felix,,0,1,0,1,0,1
+7100000007,student07,Banach,Grace,,0,0,0,0,0,1
+7100000008,student08,Kovalevskaya,Hugo,,1,1,1,0,1,1
+7100000009,student09,Hilbert,Ines,,0,0,0,1,1,1
+7100000010,student10,Mirzakhani,Jonas,,1,1,1,1,1,0
+7100000011,student11,Turing,Katya,,1,0,0,0,0,1
+7100000012,student12,Germain,Leon,,1,1,1,1,1,1
+7100000013,student13,Erdos,Maryam,,1,0,1,1,0,0
+7100000014,student14,Ramanujan,Nash,,0,0,1,0,1,1
+7100000015,student15,Cartan,Olga,,0,1,0,1,0,1
+7100000016,student16,Galois,Pierre,,0,1,1,1,1,1
+7100000017,student17,Riemann,Qiu,,1,1,1,1,1,1
+7100000018,student18,Cauchy,Rosa,,1,1,1,0,1,1
+7100000019,student19,Fourier,Sofia,,1,1,0,0,0,0
+7100000020,student20,Laplace,Tycho,,0,1,1,1,1,1
+7100000021,student21,Abel,Una,,1,1,1,1,1,1
+7100000022,student22,Jacobi,Vito,,1,1,0,0,1,1
+7100000023,student23,Weyl,Wanda,,1,1,1,0,1,1
+7100000024,student24,Frobenius,Xen,,1,1,1,1,1,1
+7100000025,student25,Dirichlet,Yuki,,0,1,1,1,1,1
+7100000026,student26,Kolmogorov,Zeno,,0,0,0,1,1,1
+7100000027,student27,Markov,Alan,,0,1,0,0,0,1
+7100000028,student28,Chebyshev,Berta,,1,0,1,0,0,1
+7100000029,student29,Lagrange,Cole,,0,0,0,1,0,0
+7100000030,student30,Bernoulli,Dina,,1,1,1,1,1,1

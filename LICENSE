@@ -1,0 +1,33 @@
+# License
+
+This project is released under two licenses, one for code and one for
+everything else, so that the software is maximally reusable while the
+teaching materials carry a clear attribution requirement.
+
+## Code  ->  MIT License
+
+Applies to all software: the Python pipeline and scripts (`*.py`),
+`run_pipeline.py`, `make_sample_data.py`, the Colab notebook
+(`colab/sbg_pipeline.ipynb`), and configuration scaffolding.
+
+  Copyright (c) 2023-2026 Camelia Karimianpour and Simeon Wong
+  Full text: see LICENSE-CODE.txt
+
+## Content  ->  Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)
+
+Applies to all non-code content: the learning standards
+(`standards/`), lookup tables (`lookup/`), documentation (`docs/`,
+`README.md`), sample data (`sample_data/`), and report templates.
+You may share and adapt it for non-commercial purposes, with credit, and
+any adaptations must be shared under the same license.
+
+  Copyright (c) 2023-2026 Camelia Karimianpour (University of Toronto)
+  Full text: see LICENSE-CONTENT.txt
+  Summary:   https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## How to give credit
+
+If you reuse, adapt, or build on this material, see **ATTRIBUTION.md**
+for ready-to-copy credit text (plain language and BibTeX), including
+role-based credit for the contributors. For the full contributor list
+and roles, see **AUTHORS.md**.

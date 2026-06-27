@@ -1,0 +1,39 @@
+# This CITATION.cff lets GitHub show a "Cite this repository" button and
+# gives reusers a machine-readable citation. Fields marked TODO need your
+# input before publishing (repository URL, DOI, release date/version).
+cff-version: 1.2.0
+message: "If you use this material, please cite it using the metadata below. See ATTRIBUTION.md for ready-to-copy credit text."
+title: "MAT188 SBG Grading Kit (Standards-Based Grading pipeline and reports)"
+abstract: >-
+  A self-contained kit for the grading side of a standards-based
+  university course (not a course-content template): labeled learning
+  standards, a question-labeling
+  scheme, a question-to-standard lookup table, a Python pipeline that
+  computes per-student mastery from platform exports (WeBWorK,
+  Gradescope) with support for reattempts until mastery, and
+  individualized student progress reports. Distilled and anonymized from
+  the system used in MAT188 (Linear Algebra, University of Toronto).
+type: software
+authors:
+  - family-names: Karimianpour
+    given-names: Camelia
+    affiliation: "University of Toronto"
+  - family-names: Wong
+    given-names: Simeon
+    # Contribution: analysis pipeline (Python). Affiliation intentionally
+    # omitted until confirmed -- see AUTHORS.md.
+  - family-names: Dumas
+    given-names: Samuel P.
+    # Contribution: LaTeX system. Affiliation intentionally omitted until
+    # confirmed -- see AUTHORS.md.
+keywords:
+  - standards-based grading
+  - mastery grading
+  - learning standards
+  - mathematics education
+  - linear algebra
+license: CC-BY-NC-SA-4.0
+# Applies to the content. The code portion is MIT: see LICENSE / LICENSE-CODE.txt
+version: "1.0.0"            # TODO: confirm version at first public release
+date-released: "2026-06-16" # TODO: set to the actual public release date
+# repository-code: ""       # TODO: add the GitHub URL once the repo is created

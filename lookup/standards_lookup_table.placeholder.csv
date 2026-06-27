@@ -1,0 +1,13 @@
+standard,webwork,gateway,tutorial,exam
+ch0-COM-vecarith,"2|ww1-1,ww1-2,ww1-3",gw1-1,tut1-1-1,
+ch0-CON-vecline,"ww1-4,ww1-5",gw1-2,tut1-2-1,ex1-1-1
+ch0-VG-plane,"2|ww1-6,ww1-7,ww1-8",,tut1-3-1,ex1-1-2
+ch0-WRIT-sets,,,tut2-1-2,ex1-3-1
+ch1-COM-rref,"2|ww2-1,ww2-2,ww2-3",gw1-3,tut2-1-1,
+ch1-CON-augsoltype,ww2-4,gw1-4,tut2-2-1,ex1-2-1
+ch1-VG-rowpic,ww2-5,,tut2-3-1,ex1-2-2
+ch2-COM-matvec,"2|ww2-6,ww2-7,ww2-8",gw1-5,tut3-1-1,
+ch2-CON-lintrans,,gw1-6,tut3-2-1,ex1-3-1
+ch2-VG-unitlintrans,,,tut3-3-1,
+ch2-COM-standmat,,gw1-5,tut3-1-1,
+chg-WRIT-matnot,,,"tut1-1-1,tut2-1-1,tut3-1-1",

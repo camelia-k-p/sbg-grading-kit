@@ -1,0 +1,101 @@
+ls_key,unit,type,statement
+ch0-WRIT-sets,ch0,WRIT,I can describe sets using set builder notation.
+ch0-COM-vecarith,ch0,COM,"I can perform algebraic arithmetic on vectors in a Euclidean vector space R^n (e.g., addition, scalar multiplication, norm, and dot product)."
+ch0-VG-vecarith,ch0,VG,I can represent vectors arithmetic geometrically for vectors in R^2 and R^3.
+ch0-COM-par,ch0,COM,I can decide whether given vectors are parallel.
+ch0-COM-per,ch0,COM,I can decide whether given vectors are perpendicular.
+ch0-COM-angle,ch0,COM,I can compute the angle between any two vectors.
+ch0-CON-vecline,ch0,CON,I can represent a line in R^2 and R^3 in vector form.
+ch0-CON-parline,ch0,CON,I can represent a line in R^2 and R^3 in parametric form.
+ch0-VG-line,ch0,VG,"Given an algebraic description of a line in R^2 or R^3, I can visualize the line."
+ch0-CON-plane,ch0,CON,I can represent a plane in R^3 given a normal vector and a point.
+ch0-VG-plane,ch0,VG,"Given an algebraic description of a plane, I can visualize the plane."
+ch1-COM-rref,ch1,COM,I can perform row reduction on any matrix and reduce it to REF and RREF.
+ch1-CON-rref,ch1,CON,I can determine when a matrix is in REF or RREF form.
+ch1-COM-augset,ch1,COM,"Given an augmented matrix of a linear system, I can find the general solution to the system."
+ch1-COM-pslinsys,ch1,COM,"Given the general solution to a system of linear equations, I can find particular solutions."
+ch1-CON-augsoltype,ch1,CON,"Given the REF of an augmented matrix, I can determine the type of solution set the system has (no solution, a unique solution, infinitely many solutions)."
+ch1-CON-ranksoltype,ch1,CON,I can identify the solution type of a system based on information about the rank of its augmented and coefficient matrices.
+ch1-VG-gslinsys,ch1,VG,"Given a system of linear equations in R^2 or R^3, I can visualize the system and its general solution."
+ch1-VG-pslinsys,ch1,VG,"Given the matrix form A x = b where b is a vector in R^2 or R^3, I can visualize a particular solution for the system by writing b as a linear combination of the columns of A."
+ch1-VG-lincom,ch1,VG,I can visualize the linear combination of vectors in R^2 and R^3.
+ch1-CON-matlincom,ch1,CON,I can interpret matrix-vector multiplication in terms of a linear combination of the columns of the matrix.
+ch1-CON-matdotprod,ch1,CON,I can interpret matrix-vector multiplication using dot products.
+ch1-COM-matarith,ch1,COM,"I can add matrices of the same size, multiply a matrix by a scalar and I can multiply a matrix by a vector if the dimensions match up."
+ch1-WRIT-gslinsys,ch1,WRIT,I can describe the general solution of a system parametrically and as a linear combination of vectors using correct mathematical notation.
+ch1-WRIT-linsysnot,ch1,WRIT,I can describe a system in matrix-vector multiplication notation.
+ch2-CON-domcodom,ch2,CON,"Given a linear transformation in any form, I can determine its domain and codomain."
+ch2-CON-lintranscheck,ch2,CON,Given a function from R^m to R^n I can apply the definition of a linear transformation or the Matrices theorem to decide whether it is a linear map.
+ch2-COM-standmat,ch2,COM,Given a linear transformation from R^m to R^n I can compute its standard matrix by computing the output of the standard vectors.
+ch2-COM-lintransoutput,ch2,COM,Given a linear transformation T in any form I can find T(x) for any vector x.
+ch2-VG-unitlintrans,ch2,VG,Given a linear transformation with domain and codomain in R^2 or R^3 I can visualize the effect of the transformation on the unit square or the unit cube.
+ch2-CON-geotrans,ch2,CON,"I can find (not memorize) the standard matrix representation of the geometric transformations (rotation, reflection, projection, shear, scaling) on R^2."
+ch2-VG-geotrans,ch2,VG,I can visualize the effect of the geometric linear transformations on R^2 and R^3.
+ch2-CON-lintranscomp,ch2,CON,"Given two linear transformations T and S, in any form, I can compute the standard matrix of T o S or S o T or show why they are not defined."
+ch2-VG-comp,ch2,VG,I can visualize the effect of the composition of two linear transformations on a given vector in R^2 and R^3.
+ch2-COM-matvec,ch2,COM,"Given matrices A and B, I can compute AB, if defined, by applying A to columns of B using the matrix-vector multiplication."
+ch2-COM-matdotprod,ch2,COM,"Given matrices A and B, I can compute AB, if defined, by finding the ij-th entry of AB directly by computing the dot product between the ith row of A and the jth column of B."
+ch2-COM-matarith,ch2,COM,I know the algebraic properties of matrix arithmetic.
+ch2-COM-rrefinv,ch2,COM,"Given a linear transformation T and its standard matrix A, I can perform row reduction on A to decide whether T is invertible."
+ch2-COM-inv,ch2,COM,"Given a linear transformation T and its standard matrix A, if T is invertible, I can find its inverse map T^-1, and the standard matrix representation of T^-1, denoted by A^-1."
+ch2-CON-surinj,ch2,CON,"Given a linear transformation T:R^m-> R^n I can decide whether T is injective, surjective, and/or invertible or bijective."
+ch3-VG-subspace,ch3,VG,"I can visualize all the subspaces of R, R^2, and R^3."
+ch3-CON-subspacecheck,ch3,CON,"Given a subset of R^n, I can verify whether it is a subspace or not."
+ch3-VG-span,ch3,VG,"Given a set of vectors v_1, ..., v_n in R, R^2 or R^3 I can visualize span(v_1, ..., v_n)."
+ch3-CON-span,ch3,CON,"Given a set of vectors v_1, ..., v_k in R^n I can describe span(v_1, ..., v_k) and decide whether any given vector is in it or not."
+ch3-CON-imkerdef,ch3,CON,"I know the definition of the kernel and image of a linear transformation T and can decide if a given vector is in ker (T) or im (T), and can find vectors in ker (T) and im (T)."
+ch3-WRIT-im,ch3,WRIT,"Given a linear transformation T, I can describe im (T) in set builder notation."
+ch3-WRIT-ker,ch3,WRIT,"Given a linear transformation T, I can describe the ker (T) and im (T) as a span of vectors."
+ch3-VG-imker,ch3,VG,"Given a linear transformation T with domain or codomain R, R^2, R^3 I can visualize ker (T) and im (T)."
+ch3-CON-gsker,ch3,CON,"Given a linear transformation T(x)=Ax, I can connect ker (T) and im (T) to the solutions to Ax=b, for suitable choices of b."
+ch3-CON-injkersurim,ch3,CON,"Given a linear transformation T, I can connect the notion of injective/surjective to ker (T)/im (T)."
+ch3-COM-linind,ch3,COM,I can determine if a given a set of vectors is linearly independent.
+ch3-COM-bas,ch3,COM,"Given a subspace, I can determine a basis."
+ch3-COM-dim,ch3,COM,"Given a subspace, I can determine its dimension."
+ch3-COM-reduclinind,ch3,COM,"Given a set of vectors, I can reduce it to a linearly independent set."
+ch3-VG-redunvec,ch3,VG,"Given a set of vectors, I can visualize if a vector is redundant."
+ch3-CON-kerlinind,ch3,CON,"Given a linear transformation T(x)=Ax, I can connect ker (T) with the linear independence of columns of A and im(T) with the span of the columns of A."
+ch3-CON-kerrank,ch3,CON,I can connect the dimension of the kernel of a linear transformation to the dimension of its image through Rank-Nullity Theorem.
+ch3-COM-bases,ch3,COM,"Given a subspace W of R^n described via a basis, I can construct other bases for W."
+ch3-COM-basvec,ch3,COM,"I can take any vector v in any R^n, take a basis B for R^n, and find the B coordinates of v in R^n."
+ch3-COM-matbas,ch3,COM,"Given any two bases B_1, B_2 of R^n, I can construct a matrix (change of basis matrix from B_1 to B_2) that take the B_1 coordinates of v as an input and compute the B_2 coordinates of v as an output."
+ch3-VG-vecbas,ch3,VG,"Given a vector v in R^n (n=1, 2 or 3) and bases B_1, B_2 of R^n, I can visualize [v]_B_1 and [v]_B_2."
+ch3-COM-sbasmat,ch3,COM,"Given a linear transformation T:R^n-> R^n, and a basis B for R^n, I can compute the matrix of T with respect to B and use it to find output of vectors."
+ch3-CON-cbasmat,ch3,CON,"I can connect the matrix representation of a linear transformation T with respect to two different bases, using a change of basis matrix."
+ch3-VG-geobasis,ch3,VG,"Given a geometric transformation T in R^2, I can find a basis B (assuming it exists), such that T with respect to B is diagonal."
+ch3-VG-diaglintrans,ch3,VG,"Given a basis B such that a linear transformation T is diagonal, I can visualize T"
+ch5-CON-orthotype,ch5,CON,"Given a set of vectors, I can determine if they are orthogonal, orthonormal, or neither."
+ch5-COM-orthocomp,ch5,COM,"Given a subspace V, I can describe the orthogonal complement of V."
+ch5-COM-vecdecomp,ch5,COM,"Given a vector x in R^n and a subspace V subset of R^n, I can decompose x into two components, one in V and one in the orthogonal complement of V."
+ch5-COM-orthobas,ch5,COM,"Given a vector x in R^n and an orthonormal basis U, I can find [x]_U, the coordinates of x with respect to U without row reduction."
+ch5-VG-kerim,ch5,VG,"I can visualize the kernel and image of the orthogonal projection onto a subspace V of R^2, R^3."
+ch5-COM-gram,ch5,COM,"Given a basis B for a subspace V, I can apply the Gram-Schmidt process to transform B into an orthonormal basis of V."
+ch5-CON-ortho,ch5,CON,I can recognize if a linear transformation is orthogonal.
+ch5-VG-unitortho,ch5,VG,I can visualize the effect of an orthogonal linear transformation on the unit square/cube.
+ch5-COM-trans,ch5,COM,I understand computational properties of transposes.
+ch5-CON-inconsys,ch5,CON,"Given an inconsistent system A x = b, I can find x* such that Ax* is closest to b."
+ch5-CON-projfit,ch5,CON,I can connect projections onto a subspace to fitting a line to a set of data points.
+ch6-VG-unit,ch6,VG,"I can visualize the absolute value of the determinant of a 2 x 2 and determinant of a 3 x 3 matrix as a factor by which the corresponding linear transformation changes the area of the unit square or the volume of the unit cube, respectively."
+ch6-VG-detsign,ch6,VG,I can interpret the sign of the determinant of a matrix geometrically.
+ch6-COM-det,ch6,COM,I can compute the determinant of an arbitrary square matrix.
+ch6-CON-bilin,ch6,CON,I can use the fact that the determinant is multilinear in rows and columns to simplify/compute the determinant of a matrix.
+ch6-COM-detprop,ch6,COM,"Given square matrices A and B, and a scalar k, I can relate the det (AB), det (A^T), det (kA) and det (A^-1) to det A and det B."
+ch6-CON-invcheck,ch6,CON,I can use determinant to determine whether a given linear transformation is invertible.
+ch6-COM-inv,ch6,COM,"Given a 2 x 2 matrix A, I can compute the inverse of A using the matrix inverse formula."
+ch6-CON-rowred,ch6,CON,I can use row reduction or multiplication by elementary matrices to compute the determinant of a matrix.
+ch7-CON-diaglintrans,ch7,CON,"Given a linear transformation T(x) = A x, I can connect the diagonalizability of A to the existence of an eigenbasis for T."
+ch7-VG-geotrans,ch7,VG,"Given a geometric transformation in R^2, I can visualize its eigenvectors and their corresponding eigenvalues."
+ch7-COM-eigenvalue,ch7,COM,"Given a linear transformation T(x), I can verify whether a vector v is an eigenvectors and if so, determine the corresponding eigenvalues."
+ch7-COM-algmult,ch7,COM,"Given a linear transformation A x, I can find its eigenvalues and their algebraic multiplicity using the characteristic polynomial."
+ch7-COM-charpoly,ch7,COM,"Given a characteristic polynomial of a 2 x 2 matrix, I can determine determinant and trace of A."
+ch7-COM-eigenbas,ch7,COM,"Given a linear transformation T(x) and eigenvalue lambda, I can find a basis for the eigenspace corresponding to lambda and its geometric multiplicity."
+ch7-VG-eigenspace,ch7,VG,"Given a linear transformation in R^2, R^3, I can visualize all the eigenspaces of T."
+ch7-CON-diagmult,ch7,CON,"Given a linear transformation T, I can state a condition regarding the diagonalizability of T, in terms of the algebraic and geometric multiplicities of its eigenvalues."
+ch7-CON-diagcmat,ch7,CON,"I can diagonalize a matrix A, if possible, by finding a change of basis matrix C and a diagonal matrix D such that A=CDC^-1."
+ch7-CON-dynsys,ch7,CON,"Given a diagonalizable A, I can predict long term behavior of a dynamical system whose transition matrix is A"
+ch8-COM-diagsym,ch8,COM,"Given a symmetric matrix A, I can orthogonally diagonalize A (or orthogonally diagonalize the linear map whose standard matrix is A)."
+ch8-CON-specthm,ch8,CON,"Given a symmetric matrix A, I can visualize the eigenspaces of A"
+chg-WRIT-matnot,chg,WRIT,I can correctly use mathematical notation.
+chg-WRIT-matcom,chg,WRIT,I can correctly and effectively communicate ideas in mathematical language.
+chg-CON-tf,chg,CON,"Given a statement I can decide whether it is true or false, and correctly justify my decision."
+chg-CON-exp,chg,CON,Given a description of a mathematical object I can find an explicit example that satisfies that definition.
